@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mnu_invert"
+        android:icon="@drawable/ic_swap_vertical_circle_white_24dp"
+        android:title="@string/invert_units"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/mnu_about"
+        android:icon="@drawable/ic_info_white_24dp"
+        android:title="@string/About"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/mnu_exit"
+        android:icon="@drawable/ic_exit_to_app_white_24dp"
+        android:title="@string/Exit"
+        app:showAsAction="never"/>
+</menu>

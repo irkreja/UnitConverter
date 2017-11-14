@@ -1,0 +1,117 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#109D58</item>
+        <item name="colorPrimaryDark">#2e7d32</item>
+        <item name="colorAccent">#109D58</item>
+        <item name="android:alertDialogTheme">@style/AlertDialogStyle</item>
+    </style>
+
+    <style name="AlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/dialog_button</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:windowTitleStyle">@style/WindowTitleStyle</item>
+        <item name="android:background">#424242</item>
+    </style>
+
+    <style name="WindowTitleStyle" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CustomProgressBar">
+        <item name="android:indeterminateDrawable">@drawable/custom_progress_bar_horizontal</item>
+        　　<item name="android:minWidth">100dip</item>
+        　　<item name="android:maxWidth">100dip</item>
+        　　<item name="android:minHeight">100dip</item>
+        　　<item name="android:maxHeight">100dip</item>
+    </style>
+
+    <style name="label">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:gravity">bottom</item>
+    </style>
+
+
+
+    <style name="label.curr">
+        <item name="android:layout_weight">30</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="label.desc">
+        <item name="android:layout_weight">15</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="layout_back">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">20</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:background">#cccccc</item>
+    </style>
+
+
+
+    <style name="layout_time">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:background">#b3b3b3</item>
+    </style>
+
+    <!-- Green App Theme -->
+    <style name="AppTheme.Green" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <!-- AppCompat Attributes -->
+        <item name="colorPrimary">@color/material_green_500</item>
+        <item name="colorPrimaryDark">@color/material_green_700</item>
+        <item name="colorAccent">@color/material_green_a700</item>
+
+        <!-- AppCompat Dialog Attributes -->
+        <item name="dialogTheme">@style/AppTheme.Dialog.Green</item>
+    </style>
+
+    <!-- Green Dialog Theme -->
+    <style name="AppTheme.Dialog.Green" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorPrimary">@color/material_green_500</item>
+        <item name="colorPrimaryDark">@color/material_green_700</item>
+        <item name="colorAccent">@color/material_green_a700</item>
+    </style>
+
+    <style name="StyledDialog" parent="@android:style/Theme.Panel">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:alertDialogStyle">@style/CustomStyle</item>
+    </style>
+
+    <style name="CustomStyle">
+        <item name="android:bottomBright">#083044</item>
+        <item name="android:bottomDark">#083044</item>
+        <item name="android:bottomMedium">#083044</item>
+        <item name="android:centerBright">#083044</item>
+        <item name="android:centerDark">#083044</item>
+        <item name="android:centerMedium">#083044</item>
+        <item name="android:fullBright">#083044</item>
+        <item name="android:fullDark">#083044</item>
+        <item name="android:topBright">#083044</item>
+        <item name="android:topDark">#083044</item>
+    </style>
+
+
+
+
+</resources>

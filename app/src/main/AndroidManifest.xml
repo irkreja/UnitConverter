@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.programmingexample.unitconverter">
+
+    <uses-permission android:name="android.permission.INTERNET">android.permission.INTERNET</uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE">android.permission.ACCESS_NETWORK_STATE</uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name=".GridActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".TempConvertActivity"
+            android:label="@string/title_activity_temp_convert" >
+        </activity>
+
+        <activity
+            android:name=".AreaConvertActivity"
+            android:label="@string/title_activity_area">
+        </activity>
+
+        <activity
+            android:name=".MassConvertActivity"
+            android:label="@string/title_activity_mass">
+        </activity>
+
+        <activity
+            android:name=".EnergyConvertActivity"
+            android:label="@string/title_activity_energy" >
+        </activity>
+
+        <activity
+            android:name=".FrequencyConvertActivity"
+            android:label="@string/title_activity_frequency">
+        </activity>
+
+        <activity
+            android:name=".LengthConvertActivity"
+            android:label="@string/title_activity_length">
+        </activity>
+
+        <activity
+            android:name=".VolumeConvertActivity"
+            android:label="@string/title_activity_volume">
+        </activity>
+
+        <activity
+            android:name=".SpeedConvertActivity"
+            android:label="@string/title_activity_speed">
+        </activity>
+
+        <activity
+            android:name=".PressureConvertActivity"
+            android:label="@string/title_activity_pressure">
+        </activity>
+
+        <activity
+            android:name=".ListActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".TimeConvertActivity"
+            android:label="@string/title_activity_time" >
+        </activity>
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/title_activity_currency"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".DigitalStorageConvertActivity"
+            android:label="@string/title_activity_data" >
+        </activity>
+        <activity
+            android:name=".CurrencyActivity"
+            android:label="@string/title_activity_currency" >
+        </activity>
+
+    </application>
+
+</manifest>

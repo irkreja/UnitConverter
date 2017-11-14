@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#109D58</color>
+    <color name="colorPrimaryDark">#2e7d32</color>
+    <color name="colorAccent">#109D58</color>
+    <color name="white">#FFF</color>
+    <color name="black">#000</color>
+    <color name="grey_dark">#222</color>
+    <color name="grey_med">#666</color>
+    <color name="turquoise">#ff22e9ff</color>
+    <color name="flat_blue">#ff1a51f4</color>
+    <color name="dialog_button">#80cbc4</color>
+
+
+    <!-- Material Color Palette -->
+
+    <color name="material_green_500">#4CAF50</color>
+    <color name="material_green_700">#388E3C</color>
+    <color name="material_green_a700">#00C853</color>
+
+    <color name="material_blue_050">#E3F2FD</color>
+
+    <!-- Selectors -->
+</resources>

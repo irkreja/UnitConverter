@@ -1,0 +1,144 @@
+<resources>
+    <string name="app_name">Unit Converter</string>
+
+    <!-- Strings for the main paage of the app-->
+
+
+    //titles for the manifest
+    <string name="title_activity_temp_convert">Temperature Converter</string>
+    <string name="title_activity_time">Time Converter</string>
+    <string name="title_activity_currency">Currency Converter</string>
+    <string name="title_activity_data">Digital Storage Converter</string>
+    <string name="title_activity_frequency">Frequency Converter</string>
+    <string name="title_activity_length">Length Converter</string>
+    <string name="title_activity_energy">Energy Converter</string>
+    <string name="title_activity_area">Area Converter</string>
+    <string name="title_activity_mass">Mass Converter</string>
+    <string name="title_activity_volume">Volume Converter</string>
+    <string name="title_activity_speed">Speed Converter</string>
+    <string name="title_activity_pressure">Pressure Converter</string>
+    <!-- Strings for the converter activities -->
+
+    <string name="prompt">Units</string>
+    <string name="retry">RETRY</string>
+    <string name="cancel">@android:string/cancel</string>
+    <string name="quit">Cancel</string>
+    <string name="yes">Yes</string>
+    <string name="invert_units">Invert Units</string>
+    <string name="About">About</string>
+    <string name="Exit">Exit</string>
+    <string name="Switch_to_GidView">Switch to GidView</string>
+    <string name="Switch_to_ListView">Switch to ListView</string>
+    <string name="CurrencyMessage">
+        A nice, simple and free currency converter for Android.
+        It allows you to convert between
+        <a href="https://openexchangerates.org/api/currencies.json">over 150+ worldwide and digital currencies</a>.
+        \n\nPOWERED BY\n
+    <a href="http://openexchangerates.org">Open Exchange Rates</a>
+    </string>
+
+
+
+    <!-- String arrays for the unit converter spinners -->
+
+
+    <string-array name="temp_units">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+        <item>Kelvin</item>
+    </string-array>
+
+    <string-array name="time_units">
+    <item>Seconds</item>
+    <item>Minutes</item>
+    <item>Hours</item>
+    <item>Days</item>
+    <item>Weeks</item>
+    <item>Months</item>
+    <item>Years</item>
+    </string-array>
+
+    <string-array name="data_units">
+        <item>bits [b]</item>
+        <item>bytes [B]</item>
+        <item>kilobits [Kb]</item>
+        <item>kilobytes [KB]</item>
+        <item>megabits [Mb]</item>
+        <item>megabytes [MB]</item>
+        <item>gigabits [Gb]</item>
+        <item>gigabytes [GB]</item>
+        <item>terabits [Tb]</item>
+        <item>terabytes [TB]</item>
+    </string-array>
+
+    <string-array name="frequency_units">
+        <item>Hertz (Hz)</item>
+        <item>Kilohertz (kHz)</item>
+        <item>Megahertz (MHz)</item>
+        <item>Gigahertz (GHz)</item>
+    </string-array>
+
+    <string-array name="length_units">
+        <item>Inch</item>
+        <item>Foot</item>
+        <item>Yard</item>
+        <item>Mile</item>
+        <item>Millimeter</item>
+        <item>Centimeter</item>
+        <item>Meter</item>
+        <item>Kilometer</item>
+    </string-array>
+
+    <string-array name="energy_units">
+        <item>Joule [J]</item>
+        <item>Kilojoule [kJ]</item>
+        <item>Gram calorie (cal)</item>
+        <item>Kilocalorie (kcal)</item>
+        <item>Watt hour (Wh)</item>
+        <item>Kilowatt hour (kWh)</item>
+        <item>Electronvolt (eV)</item>
+    </string-array>
+
+    <string-array name="area_units">
+        <item>Square meter</item>
+        <item>Square kilometer</item>
+        <item>Square mile</item>
+        <item>Square inch</item>
+        <item>Square foot</item>
+        <item>Square yard</item>
+        <item>Hectare</item>
+        <item>Acre</item>
+    </string-array>
+
+    <string-array name="mass_units">
+        <item>Milligram [mg]</item>
+        <item>Gram [g]</item>
+        <item>Kilogram [kg]</item>
+        <item>Metric ton [t]</item>
+        <item>Pound [lb]</item>
+    </string-array>
+
+    <string-array name="volume_units">
+        <item>Milliliter</item>
+        <item>Liter</item>
+        <item>Cubic inch</item>
+        <item>Cubic foot</item>
+        <item>Cubic meter</item>
+    </string-array>
+
+    <string-array name="speed_units">
+        <item>Meter per second [m/s]</item>
+        <item>Foot per second [fps]</item>
+        <item>Kilometer per hour [km/h]</item>
+        <item>Miles per hour [mph]</item>
+        <item>Knot [kn]</item>
+    </string-array>
+
+    <string-array name="pressure_units">
+        <item>Atmosphere [atm]</item>
+        <item>Bar</item>
+        <item>Pascal [Pa]</item>
+        <item>Torr</item>
+    </string-array>
+
+</resources>

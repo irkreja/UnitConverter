@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".GridActivity">
+    <item
+        android:id="@+id/swap_list"
+        android:icon="@drawable/ic_reorder_white_24dp"
+        android:title="@string/Switch_to_ListView"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/ic_info_white_24dp"
+        android:title="@string/About"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/mnu_exit"
+        android:icon="@drawable/ic_exit_to_app_white_24dp"
+        android:title="@string/Exit"
+        app:showAsAction="never"/>
+</menu>
